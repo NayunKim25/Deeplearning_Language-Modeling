@@ -66,7 +66,6 @@ Loss 값을 살펴보면 LSTM의 경우, 검증 데이터에 대한 손실 값�
 다음은 Temperature 값을 0.5, 1, 1.5로 설정하여 출력을 비교한 결과이다.
 
 1) Temperature: 0.5
-   
 The blood did the war, whom we shall he should be so blame the consul; when my soul all the true like a 
 The king against the which the tribunes, for this are consul, and the people sent, and the comfort, sir,
 The interious soul shall hear him that deserved some corn of the people that or stood me to see their ow
@@ -75,7 +74,6 @@ The gods stood with my soul common serves the gods, the grace.LADY ANNE:I will r
 ==========================================================================================================
 
 2) Temperature: 1.0
-   
 The too old pleasions, sir: we content mark!Lest it to rule interrandon with you all by suippy!We are mo
 The idle highness before thee!COMINIUS:Embsel, the gods she,I'll fight:Will beA sir, and as the crost fi
 The bowels mosse you.Wheneport have been our unto the weaguins. If are an eyes and Marcius;ise, country,
@@ -84,7 +82,6 @@ The offir'd soul,Tell with theeBut be his wife therefore us thatsaly,Yet: thou s
 ==========================================================================================================
 
 3) Temperature: 1.5
-   
 The rightly this wise's leave you end i'erThat the enmenoneLikiussOf him he'ld battle fOverseme!Which I 
 The boRe:But whenbake aid sGo; smean?First Servingmen.My 'lagun of devisuits andSonly?ow let by turn me?
 The sword, that, toHath aul noe. . I charged thee among: our abut that? Only,Wine purse.LAMYers loving t
