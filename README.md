@@ -1,64 +1,67 @@
 # Deeplearning_Language-Modeling
 인공신경망과 딥러닝 강의 과제용
 
-**1. Plot the average loss values for training and validation.
-- vanilla RNN Train & Validation Loss**
-Epoch: 1, Train Loss: 1.8371
-Validation Loss: 1749.9075
-Epoch: 2, Train Loss: 1.8127
-Validation Loss: 1808.2797
-Epoch: 3, Train Loss: 1.9337
-Validation Loss: 1951.4778
-Epoch: 4, Train Loss: 2.0807
-Validation Loss: 2048.5984
-Epoch: 5, Train Loss: 2.2213
-Validation Loss: 2141.1007
-Epoch: 6, Train Loss: 2.2802
-Validation Loss: 2272.1278
-Epoch: 7, Train Loss: 2.3595
-Validation Loss: 2277.3161
-Epoch: 8, Train Loss: 2.4082
-Validation Loss: 2312.0296
-Epoch: 9, Train Loss: 2.4349
-Validation Loss: 2361.8124
-Epoch: 10, Train Loss: 2.4642
-Validation Loss: 2376.5158
+**1. Plot the average loss values for training and validation.**
+
+**- vanilla RNN Train & Validation Loss**
+
+Epoch 1: Train Loss: 1.8371, Validation Loss: 1749.9075
+
+Epoch 2: Train Loss: 1.8127, Validation Loss: 1808.2797
+
+Epoch 3: Train Loss: 1.9337, Validation Loss: 1951.4778
+
+Epoch 4: Train Loss: 2.0807, Validation Loss: 2048.5984
+
+Epoch  5: Train Loss: 2.2213, Validation Loss: 2141.1007
+
+Epoch: 6, Train Loss: 2.2802, Validation Loss: 2272.1278
+
+Epoch 7: Train Loss: 2.3595, Validation Loss: 2277.3161
+
+Epoch 8: Train Loss: 2.4082, Validation Loss: 2312.0296
+
+Epoch 9: Train Loss: 2.4349, Validation Loss: 2361.8124
+
+Epoch 10: Train Loss: 2.4642, Validation Loss: 2376.5158
 
 ![Figure_2_1](https://github.com/NayunKim25/Deeplearning_Language-Modeling/assets/144984333/613030d3-017c-4b17-a9e8-bde813fb63da)
+
 Loss 값을 살펴보면 vanilla RNN의 경우, 검증 데이터에 대한 손실 값이 지속적으로 증가하고 있으며 마지막 epoch에서는 2376.5158로 첫 epoch와의 차이가 약 627로 크게 변화하는 것을 확인할 수 있다.
 이를 통해 vanilla RNN은 시퀀스 길이가 길어짐에 따라 장기 의존성을 잘 학습하지 못하고, overfitting이 발생하였음을 알 수 있다.
 
 **- LSTM Train & Validation Loss**
-Epoch: 1, Train Loss: 1.6060
-Validation Loss: 1609.2995
-Epoch: 2, Train Loss: 1.4546
-Validation Loss: 1609.4558
-Epoch: 3, Train Loss: 1.4290
-Validation Loss: 1624.6096
-Epoch: 4, Train Loss: 1.4198
-Validation Loss: 1627.2432
-Epoch: 5, Train Loss: 1.4162
-Validation Loss: 1628.1502
-Epoch: 6, Train Loss: 1.4162
-Validation Loss: 1623.1195
-Epoch: 7, Train Loss: 1.4194
-Validation Loss: 1629.5082
-Epoch: 8, Train Loss: 1.4238
-Validation Loss: 1632.7086
-Epoch: 9, Train Loss: 1.4275
-Validation Loss: 1634.2278
-Epoch: 10, Train Loss: 1.4381
-Validation Loss: 1644.5962
-Vanilla RNN Validation Loss: 2376.5158
-LSTM Validation Loss: 1644.5962
+
+Epoch1 : Train Loss: 1.6060, Validation Loss: 1609.2995
+
+Epoch2 : Train Loss: 1.4546, Validation Loss: 1609.4558
+
+Epoch3 : Train Loss: 1.4290, Validation Loss: 1624.6096
+
+Epoch 4: Train Loss: 1.4198, Validation Loss: 1627.2432
+
+Epoch 5: Train Loss: 1.4162, Validation Loss: 1628.1502
+
+Epoch 6: Train Loss: 1.4162, Validation Loss: 1623.1195
+
+Epoch 7: Train Loss: 1.4194, Validation Loss: 1629.5082
+
+Epoch 8: Train Loss: 1.4238, Validation Loss: 1632.7086
+
+Epoch 9: Train Loss: 1.4275, Validation Loss: 1634.2278
+
+Epoch 10: Train Loss: 1.4381, Validation Loss: 1644.5962
 
 ![Figure_2_2](https://github.com/NayunKim25/Deeplearning_Language-Modeling/assets/144984333/2a046730-97dd-478d-b2d0-9ffe33e61bfb)
+
 Loss 값을 살펴보면 LSTM의 경우, 검증 데이터에 대한 손실 값이 비교적 일정하게 유지되며 vanilla RNN에 비해 낮은 손실 값을 보이는 것을 확인할 수 있다.
 이를 통해 LSTM이 긴 시퀀스의 의존성을 더 잘 처리하고, 더 안정적으로 학습되는 것을 알 수 있다.
 
+
+
 **2. Try different temperatures when you generate characters, and discuss what difference the temperature makes and why it helps to generate more plausible results.**
 
-Temperature 값을 0.5, 1, 1.5로 설정하여 출력 결과를 비교하였다.
+다음은 Temperature 값을 0.5, 1, 1.5로 설정하여 출력을 비교한 결과이다.
 
 1) Temperature: 0.5
 The blood did the war, whom we shall he should be so blame the consul; when my soul all the true like a 
