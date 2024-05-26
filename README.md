@@ -1,5 +1,5 @@
 # Deeplearning_Language-Modeling
-인공신경망과 딥러닝 강의 과제용
+
 
 **1. Plot the average loss values for training and validation.**
 
@@ -30,6 +30,7 @@ Epoch 10: Train Loss: 2.4642, Validation Loss: 2376.5158
 Loss 값을 살펴보면 vanilla RNN의 경우, 검증 데이터에 대한 손실 값이 지속적으로 증가하고 있으며 마지막 epoch에서는 2376.5158로 첫 epoch와의 차이가 약 627로 크게 변화하는 것을 확인할 수 있다.
 이를 통해 vanilla RNN은 시퀀스 길이가 길어짐에 따라 장기 의존성을 잘 학습하지 못하고, overfitting이 발생하였음을 알 수 있다.
 
+
 **- LSTM Train & Validation Loss**
 
 Epoch1 : Train Loss: 1.6060, Validation Loss: 1609.2995
@@ -56,6 +57,7 @@ Epoch 10: Train Loss: 1.4381, Validation Loss: 1644.5962
 
 Loss 값을 살펴보면 LSTM의 경우, 검증 데이터에 대한 손실 값이 비교적 일정하게 유지되며 vanilla RNN에 비해 낮은 손실 값을 보이는 것을 확인할 수 있다.
 이를 통해 LSTM이 긴 시퀀스의 의존성을 더 잘 처리하고, 더 안정적으로 학습되는 것을 알 수 있다.
+
 
 
 
